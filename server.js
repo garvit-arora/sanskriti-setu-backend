@@ -15,7 +15,7 @@ const matchRoutes = require('./routes/matches');
 const chatRoutes = require('./routes/chat');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 // Security middleware
 app.use(helmet());
